@@ -9,6 +9,7 @@
 
 <body>
     <div>
+        <h2>Inserindo Multimídias</h2>
         <!-- Imagem local -->
         <img width="250px" src="./source/images/goku.jpg"> <br>
         <!-- Imagem remota -->
@@ -20,7 +21,7 @@
             <source src="./source/audio/trap-future-bass-royalty-free-music-167020.mp3">
         </audio> <br>
 
-        <video  width="150px" controls>
+        <video width="150px" controls>
             <source src="./source/video/178732 (720p).mp4">
         </video>
         <br>
@@ -31,7 +32,115 @@
         <br>
     </div>
     <div>
+        <h2>Criando um Link</h2>
         <a href="https://www.google.com/">Google</a>
+    </div>
+
+    <div>
+        <h2>Criando uma Tabela</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Maria</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>João</td>
+                    <td>25</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Há um total de 2 Registros</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div>
+        <h2>Criando Listas</h2>
+        <h3>Lista de Campões do Mundo FIFA</h3>
+        <h6>Lista Ordenada</h6>
+        <ol>
+            <li>Brasil</li>
+            <li>Alemanha</li>
+            <li>Itália</li>
+            <li>Argentina</li>
+            <li>França</li>
+            <li>Uruguai</li>
+            <li>Espanha</li>
+            <li>Inglaterra</li>
+        </ol>
+        <h6>Lista Não Ordenada</h6>
+        <ul>
+            <li>Brasil</li>
+            <li>Alemanha</li>
+            <li>Itália</li>
+            <li>Argentina</li>
+            <li>França</li>
+            <li>Uruguai</li>
+            <li>Espanha</li>
+            <li>Inglaterra</li>
+        </ul>
+    </div>
+    <div>
+        <h2>Criando Formulário</h2>
+        <form action="#" method="post">
+            <label>Nome Completo</label>
+            <input type="text" id="nome_completo" name="nome_completo" /> <br>
+            <label>E-mail</label>
+            <input type="email" id="email_aluno" name="email_aluno" /><br>
+            <label>Senha</label>
+            <input type="password" id="senha_aluno" name="senha_aluno" /> <br>
+            <label>Data Nascimento</label>
+            <input type="date" id="dt_nascimento_aluno" name="dt_nascimento_aluno" /> <br>
+            <label>CPF</label>
+            <input type="number" id="cpf_aluno" name="cpf_aluno" /> <br>
+            
+            <label>Sexo</label>
+            <input type="radio" value="Masculino" id="radio_sexo_masc" name="radio_sexo">Masculino
+            <input type="radio" value="Feminino" id="radio_sexo_fem" name="radio_sexo">Feminino
+            <input type="radio" value="Indefinido" id="radio_sexo_ind" name="radio_sexo">Indefinido
+            <br>
+
+            <label>Minha Cor Favorita</label>
+            <input type="color" id="cor_aluno" name="cor_aluno"> <br>
+
+
+            <label>Minhas Linguagens Favoritas</label>
+            <select id="linguagem_favorita" multiple>
+                <option value="Java">Java</option>
+                <option value="Phyton">Phyton</option>
+                <option value="PHP">PHP</option>
+                <option value="JavaScript">JavaScript</option>
+            </select>
+            <br>
+            <label>Idioma Favorito</label>
+            <select id="idioma_favorita">
+                <option value="Portugues">Portugues</option>
+                <option value="Ingles">Ingles</option>
+                <option value="Espanhol">Espanhol</option>
+                <option value="Frances">Frances</option>
+            </select>
+            <br>
+            <label>Comentário</label>
+            <textarea id="comentario_aluno" rows="10"></textarea>
+            <br>
+            <label>Aceita os Termos</label>
+            <input type="checkbox" id="aceite" nome="aceite" required>
+            <br>
+            <input type="submit" id="enviar_form" nome="enviar_form" value="Enviar">
+        </form>
+
+        <!-- CTRL + ; : Comentar Código -->
+        <!-- ALT + SHIFT + F : Utilizado para organizar e identar o código -->
+        <!-- ALT + SHIFT + SETA: Copiar linha para cima ou para baixo -->
+        <!-- CTRL + D: Selecionar textos iguais (ou similares) -->
     </div>
 </body>
 
