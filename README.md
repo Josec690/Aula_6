@@ -10,4 +10,4 @@
    
 ## Material para Leitura   
 
-  [_ Aula6 [Introdução a Des. Web e HTML II] (3).pdf](https://github.com/franciscodouglas/aula06-fateczl-dw/files/13325865/_.Aula6.Introducao.a.Des.Web.e.HTML.II.3.pdf)
+  [_ Aula6 [Introdução a Des. Web e HTML II].pdf](https://github.com/franciscodouglas/aula06-fateczl-dw/files/13325865/_.Aula6.Introducao.a.Des.Web.e.HTML.II.3.pdf)
